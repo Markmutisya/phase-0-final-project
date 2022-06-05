@@ -1,0 +1,26 @@
+:root{
+--primary-color:purple;
+--white-color:blue;
+--text-color:black;
+--gray-color:grey;
+--invert-primary-color:#9855ff;
+--invert-text-color: #FFFFFF;
+--invert-bg-color: #2B3137;
+}
+
+* {
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background:var(--white-color);
+    transition: .3s;
+}
+
+a {
+    text-decoration: none;
+}
